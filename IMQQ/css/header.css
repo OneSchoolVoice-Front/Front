@@ -1,0 +1,91 @@
+
+header {
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid black; */
+}
+.nav {
+    width: 79%;
+    height: 75px;
+    margin: 0 auto;
+}
+.nav img{
+    float: left;
+    margin-top: 10px;
+}
+.nav .first-nav{
+    float: left;
+    padding-left: 18px;
+}
+.nav button{
+    float: right;
+}
+.nav .first-nav li{
+    height: 75px;
+    list-style: none;
+    float: left;
+    margin-top: 0;
+    line-height: 75px;
+    font-size: 1.125em;
+   
+}
+.nav .first-nav li a{
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+    margin-left: 20px;
+    display: inline-block;
+     
+    
+    
+}
+.nav .first-nav li a:hover{
+    background-color: #12b7f5;
+}
+.nav-right{
+    float: right;
+    width: 330px;
+    height: 63px;
+}
+.nav-right .button-regist{
+    float: left;
+    width: 96px;
+    height: 39px;
+    background: url('../images/icons.png') no-repeat 0 -244px;
+    margin-top: 20px;
+    cursor: pointer;   
+}
+.nav-right .button-regist:hover{
+    background: url('../images/icons.png') no-repeat 0 -284px;
+    
+}
+.nav .side-right{
+    float: right;
+    margin-top: 6px;
+    padding-left: 6px;
+    font-size: 0.9em;
+}
+.nav .second-nav{
+    display: block;
+    float: right;
+}
+.nav .second-nav li{
+    list-style: none;
+    float: left;
+    padding: 10px 14px;
+}
+.nav .second-nav li a{
+    color: black;
+    text-decoration: none;
+}
+.nav .side-right .num{
+    display:block;
+    margin-left: 14px;
+}
+.scroll {
+    background-color: #fff;
+    position: fixed;
+    z-index: 100;
+}
+
+

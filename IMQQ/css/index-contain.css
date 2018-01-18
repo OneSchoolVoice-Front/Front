@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrapper{
+    width: 100%;
+    /* height: 5900px; */
+    background-image: url('../images/tim_bg_1.jpg');
+}
+#container{
+    width: 100%;
+    min-width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+.contain .tim-bg {
+    text-align: center;
+}
+.contain .middle{
+    margin: 3% auto 4%;
+}
+.contain .footer img{
+    width: 100%;
+    height: 100%;
+}
+.contain .footer{
+    position: relative;
+}
+.footer .cover{
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+.content{
+    background: white;
+}
+.firstBg{
+    background-image: url('../images/bg1_1600.jpg')!important;
+}
+.Bg_public{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #fff;
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+.qw960{
+    position: relative;
+    width: 960px;
+    height: 584px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.qw960 .img{
+    /* width: 664px; */
+    /* height: 763px;; */
+    position: absolute;
+    top: -180px;
+    left: -10px;
+}
+.qw960 .describe{
+    position: absolute;
+    right: 7px;
+    top: 65px;
+    width: 450px;
+    text-align: right;
+}
+.qw960 .describe h1{
+    text-indent: 40%;
+    font-size: 48px;
+    font-weight: lighter;
+}
+.qw960 .describe p{
+    width: 89%;
+    font-size: 18px;
+    letter-spacing: 0.12em;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 46px;
+}
+.qw960 .describe p a{
+    color: aqua;
+    text-decoration: none;
+}
+.qw960 .describe img{
+    margin-top: 60px;
+}
+.small-bg1{
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 293px;
+    height: 46px;
+    background: url('../images/qcall_figs.png');
+}
+.small-bg ul{
+    list-style: none;
+    font-size: 14px;
+    width: 393px;
+    height: 46px;
+    color: rgb(185, 179, 179);
+    margin-right: 50px;
+    
+}
+.small-bg ul li{
+    float: left;
+    /* margin-left: 10px; */
+}
+.l1{
+    width: 156px;
+    text-align: left;
+    border-left: 1px solid #e9e9e9;
+}
+.l2{
+    width: 109px;
+}
+.l3{
+    width:80px;
+}
+/* 第二板块 */
+.secondBg{
+    background-image: url('../images/avds.jpg')!important;
+}
+.qw960 .describe_2{
+    position: absolute;
+    left: 7px;
+    top: 65px;
+    width: 450px;
+    text-align: right;
+    text-align: left;
+}
+.qw960 .describe_2 p{
+    width: 89%;
+    font-size: 18px;
+    letter-spacing: 0.12em;
+    color: gray;
+    margin-top: 20px;
+    /* margin-left: 46px; */
+}
+/* 第三板块 */
+.thirdBg{
+    background-image: url('../images/bg3_1600.jpg')!important;
+}
+.describe_3{
+    margin-top: 38px;
+}
+.blog img{
+    margin-top: 78px;
+}
+/* 底部 */
+footer{
+    width: 100%;
+    height: 348px;
+    padding-top: 34px;
+    background: #2a2a2a;
+    font-size: 0.75em;
+}
+.footer-box{
+    width: 960px;
+    height: 205px;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+}
+.footer-box .box-left{
+    float: left;
+    width: 510px;
+    padding-left: 8px;
+}
+.footer-box .box-left h3{
+    color: gray;
+    font-weight: lighter;
+}
+.footer-box .box-left img{
+
+}
+.footer-box .box-right{
+    float: right;
+    width: 440px;
+}
+.footer-box .box-right .nav-1{
+    width: 33%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    
+}
+.footer-box .box-right .nav-1 dt{
+    font-size: 14px;
+    color: gray;
+}
+.footer-box .box-right .nav-1 dd{
+    line-height: 22px;
+    color: rgb(173, 171, 171);
+}
+.product{
+    width: 395px;
+    height: 143px;
+    background: url('../images/plats1.png') no-repeat 0 50px;
+}
+.product:hover{
+    background: url('../images/plats1.png') no-repeat 0 -50px;
+}
+.copy-right{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(95, 93, 93);
+}
+.file{
+    margin-top: 130px;
+    float: right;
+    margin-right: -70px;
+}
+.describe_1{
+    position: absolute;
+    left: 7px;
+    top: 65px;
+    width: 450px;
+    text-align: right;
+}
+.circle{
+    position: absolute;
+    bottom: 100px;
+    left: -13%;
+}
+.circle .pic{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 40px;
+    display: none;
+}
+.circle .pic1{
+    background: url('../images/qblog_fig1.png')
+}
+.circle .pic2{
+    background: url('../images/qblog_fig2.png')
+}
+.circle .pic3{
+    background: url('../images/qblog_fig3.png')
+}
+
+
+
