@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>帮忙主页</title>
+    <!-- 响应式布局必须加下面这句代码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mdui/mdui.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" /> 
+    <link rel="stylesheet" type="text/css" media="screen" href="css/help.css" /> 
+    <link rel="stylesheet" type="text/css" media="screen" href="common/common.css" />     
+    <!-- <script src='https://cdn.bootcss.com/jquery/3.3.1/core.js'></script> -->
+    <script src="common/common.js"></script>
+    
+</head>
+<body>
+    <div class="mdui-container-fluid mdui-col-xs-12">
+        <!-- 顶部导航栏 -->
+        <header class="mdui-theme-accent-blue">
+            <nav>
+                <ul>
+                    <li><img src="image/icon_QQ.png"></li>
+                    <li><span class="first">首页</span></li>
+                    <li><input class="mdui-input input"></li>
+                    <li><button class="mdui-btn mdui-color-theme-accent mdui-ripple ">求助</button></li>
+                    <li>
+                            <button class="mdui-btn  mdui-ripple voice" mdui-dialog="{target: '#example-1'}"></button>                        
+                            <div class="mdui-dialog" id="example-1">
+                              <div class="mdui-dialog-title img-title"><img src="image/话筒.png" style="width:16%;height:16%"></div>
+                              <div class="mdui-dialog-content">You'll lose all photos and media!</div>
+                              <div class="mdui-dialog-actions">
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple sure" mdui-dialog-close>确定</button>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple cancle" mdui-dialog-confirm>取消</button>
+                              </div>
+                            </div>
+                          
+                    </li>
+                    <li>
+                        <hgroup>
+                            <a href="login.html">登录</a>
+                            <a href="register.html">注册</a>                       
+                        </hgroup>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- 中间内容 -->
+        <div class="main-box">
+            <!-- 帮忙聊天记录 -->
+            <div class="help_contain">  
+                <div class="top public">
+                    <div class="head">
+                        <img src="image/微信.png" alt="">
+                    </div>
+                    <div class="capture mdui-theme-accent-blue">
+                        <span class="time">2018/1/26 6:30</span>
+                        <span class="content">我是你爸爸哈哈哈哈哈</span>
+                        <button class="mdui-btn mdui-color-theme-accent mdui-btn-ripple reward">打赏</button>
+                        <span>
+                            <img src="image/点赞.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <div class="chat public">
+                        
+                    <div class="record">
+                        
+                    </div>
+                    <div class="fixed mdui-theme-accent-blue">
+                            <input class="mdui-input write " placeholder = " 这里开始聊天...">
+                            <button class="mdui-btn mdui-color-theme-accent mdui-btn-ripple send">发送</button>
+                    </div>
+                </div>             
+            </div>
+            <!-- 热点 -->
+            <div class="hot">
+                <div class="hot_box">
+                        <h1>帮忙热榜</h1>
+                        <span class="help">帮忙1</span>
+                        <span class="help">帮忙2</span>
+                        <span class="help">帮忙3</span>
+                </div>
+                
+            </div>
+        </div>
+        <footer>
+            版权所有                       
+        </footer>
+    </div>
+    <script src="mdui/mdui.js"></script>
+    <script src="js/help.js"></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,105 @@
+
+h1{
+    text-align: center;
+}
+
+/* 头部导航 */
+
+/* 首页左边内容 */
+.main-box{
+    width: 74%;
+    min-width: 942px;
+    height: 600px;
+    margin: 0 auto;
+    
+}
+
+.main-box .contain{
+    width: 80%;
+    height: 600px;
+    /* border: 1px solid black; */
+    float: left;
+}
+.main-box .contain .view{
+    width: 90%;
+    height: 120px;
+    margin: 10px auto;
+    background-color: #fff;
+    box-shadow: 0 -2px 1px -2px rgba(0, 0, 0, .2), 
+                0 2px 2px 0 rgba(0, 0, 0, .14), 
+                0 1px 5px 0 rgba(0, 0, 0, .12);
+    }
+.main-box .contain .view div{
+    float: left;
+    text-align: center;
+}
+.main-box .contain .view .view_left{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    line-height: 120px;
+    
+}
+.main-box .contain .view .view_left img{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    
+}
+.main-box .contain .view .view_right{
+    width: 10%;
+    height: 100%;
+    line-height: 120px;
+}
+.main-box .contain .view .view_right img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.main-box .contain .view .view_center {
+    width: 70%;
+    text-align: left;
+}
+.main-box .contain .view .view_center .content{
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    padding-top: 40px;
+    overflow: hidden;
+    text-align: left;
+}
+.main-box .contain .view .view_center .time{
+    position: absolute;
+    line-height: 20px;
+    bottom: 10px;
+    right: 0px;
+}
+/* 热榜 */
+.main-box .hot{
+    float: right;
+    width: 20%;
+    height: 600px;
+    margin-top: 30px;
+}
+.main-box .hot .hot_box{
+    
+    width:100%;
+    background-color: #fff;
+    padding-top: 20px;
+    box-shadow: 0 -2px 1px -2px rgba(0, 0, 0, .2), 
+                0 2px 2px 0 rgba(0, 0, 0, .14), 
+                0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+
+.hot .help{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    background: url('../image/勾.png') no-repeat 40px;
+    background-size: 20px 20px;
+    line-height: 42px;
+}
+
+

@@ -1,0 +1,68 @@
+.mdui-container{
+    width: 70%;
+    margin: 80px auto;
+    min-width: 20rem;
+    max-width: 40rem;
+}
+.head-img img{
+    width: 6.25rem;
+    height: 6.25rem;
+    display: block;
+    margin: 0 auto;
+}
+.user-name{
+    width: 100%;
+    margin: 0 auto;
+}
+.identifying-code{
+    width: 10%;
+    height: 50%;
+    /* border: 1px solid rgb(155, 151, 151); */
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-size: 0.8rem;
+}
+.mdui-btn {
+    min-width: 134px;
+    
+}
+.login{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 2    0px;
+    /* border: 1px solid rgb(121, 118, 118); */
+}
+.bottom{
+    width: 100%;
+    height: 80px;
+}
+.left{
+    float: left;
+}
+.left a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+}
+.other{
+    float: right;
+    height: 40px;
+    margin-top: 6px;
+   
+}
+.other span{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 42px;
+}
+.other img{
+    width: 30px;
+    height: 30px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}

@@ -1,0 +1,49 @@
+.mdui-container{
+    min-width: 880px;
+}
+.box_left{
+    width: 60%;
+    height: 600px;
+    float: left;
+    border: 1px solid black;
+}
+.box_right{
+    width: 39%;
+    height: 600px;
+    float: right;
+    /* border: 1px solid black; */
+    min-width: 314px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.mdui-theme-accent-blue{
+    width: 80%;
+    margin: 30px auto;
+}
+.mdui-textfield{
+    padding-bottom: 24px;
+}
+.message .number{
+    width: 38%;
+    height: 40px;
+    border: 1px solid rgba(131, 128, 128, 0.829);
+    border-radius: 10px;
+}
+.message .send{
+    width: 50%;
+    height: 45px;
+    margin-left: 9%;
+    border-radius: 10px;
+}
+.register{
+    width: 99%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.register a{
+    text-decoration: none;
+    color: white;
+}

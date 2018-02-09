@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>注册页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mdui/mdui.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/register.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="common/common.css" />
+    
+    <script src="mdui/mdui.js"></script>
+</head>
+<body>
+    <div class="mdui-container">      
+        <div class="box_left"></div>
+        <div class="box_right">
+                <h1>欢迎注册同校声</h1>
+            <div class="mdui-theme-accent-blue">
+                  <div class="mdui-textfield mdui-textfield-floating-label">
+                    <label class="mdui-textfield-label">昵称</label>
+                    <input class="mdui-textfield-input" type="text" required/>
+                    <div class="mdui-textfield-error">昵称不能为空</div>
+                  </div>
+
+                  <div class="mdui-textfield mdui-textfield-floating-label">
+                    <label class="mdui-textfield-label">密码</label>
+                    <input class="mdui-textfield-input" type="text" pattern="^.*(?=.{6,})(?=.*[a-z])(?=.*[A-Z]).*$" required/>
+                    <div class="mdui-textfield-error">密码至少 6 位，且包含大小写字母</div>
+                    <div class="mdui-textfield-helper">请输入至少 6 位，且包含大小写字母的密码</div>
+                  </div>
+
+                  <div class="mdui-textfield mdui-textfield-floating-label">
+                    <label class="mdui-textfield-label">电话号码</label>
+                    <input class="mdui-textfield-input" type="number" required/>
+                    <div class="mdui-textfield-error">电话号码格式错误</div>
+                  </div>
+
+                  <div class="message ">
+                      <input class="mdui-input number">
+                      <button class="mdui-btn mdui-color-theme-accent mdui-ripple send">发送验证码</button>
+                  </div>
+                  <button class="mdui-btn mdui-color-theme-accent mdui-ripple register">立即注册</button>
+                </div>
+        </div>
+        <footer>版权声明</footer>
+        
+    </div>
+</body>
+</html>

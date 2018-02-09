@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>个人信息完善</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mdui/mdui.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="common/common.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/personal_info.css" />
+    <script src="mdui/mdui.js"></script>
+    <script src="common/common.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="mdui-container-fluid mdui-col-xs-12">
+        <!-- 顶部导航栏 -->
+        <header class="mdui-theme-accent-blue">
+            <nav>
+                <ul>
+                    <li>
+                        <img src="image/icon_QQ.png">
+                    </li>
+                    <li>
+                        <span class="first">首页</span>
+                    </li>
+                    <li>
+                        <input class="mdui-input input">
+                    </li>
+                    <li>
+                        <button class="mdui-btn mdui-color-theme-accent mdui-ripple">求助</button>
+                    </li>
+                    <li>
+                            <button class="mdui-btn  mdui-ripple voice" mdui-dialog="{target: '#example-1'}"></button>                        
+                            <div class="mdui-dialog" id="example-1">
+                              <div class="mdui-dialog-title img-title"><img src="image/话筒.png" style="width:16%;height:16%"></div>
+                              <div class="mdui-dialog-content">You'll lose all photos and media!</div>
+                              <div class="mdui-dialog-actions">
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple sure" mdui-dialog-close>确定</button>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple cancle" mdui-dialog-confirm>取消</button>
+                              </div>
+                            </div>
+                    </li>
+                    <li>
+                        <hgroup>
+                            <a href="#">登录</a>
+                            <a href="#">注册</a>
+                        </hgroup>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- 中间内容区域 -->
+        <div class="main_box">
+            <div class="main_box_left">
+                <div class="person_info">
+                    <div class="line_1">
+                        <div class="line_1_left">
+                            <img src="image/微信.png">
+                        </div>
+                        <div class="line_1_right">
+                            <span class="title">称号</span>
+                            <span class="nickName">昵称</span>
+                            <p>真实姓名</p>
+                        </div>
+
+                    </div>
+                    <div class="line_2">
+                        <p>专业：计算机科学与技术</p>
+                    </div>
+                    <div class="line_3">
+                        <span class="count">打赏次数
+                            <br>
+                            <span>45</span>
+                        </span>
+                        <span class="count">问题点赞量
+                            <br>
+                            <span>46</span>
+                        </span>
+                        <span class="count">粉丝数
+                            <br>
+                            <span>47</span>
+                        </span>
+                    </div>
+                    <div class="line_4">
+                        <p>个人简介</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <span style="background-color: rgb(126, 207, 245);">个人资料</span>
+                    <span>我的消息</span>
+                    <span>我的求助</span>
+                    <span>我的帮忙</span>
+                    <span>我的关注</span>
+                </div>
+            </div>
+            <div class="main_box_right">
+                <!-- 第一个选项卡 -->
+                <div class="tab_1 public">
+                    <p>基本信息</p>
+                    <label>昵称:</label>
+                    <input class="mdui-input" value="和设施设施">
+                    </br>
+                    <label>真实姓名:</label>
+                    <input type="text" value="和设施设施">
+                    </br>
+                    <label>学号:</label>
+                    <input type="text" value="和设施设施">
+                    </br>
+                    <label>专业:</label>
+                    <input type="text" value="和设施设施">
+                    </br>
+                    <label>QQ:</label>
+                    <input type="text" value="和设施设施">
+                    </br>
+                    <label>Wechat:</label>
+                    <input type="text" value="和设施设施">
+                    </br>
+                    <label>个人简介:</label>
+                    <textarea>是佛家佛大非农的金佛爱都佛IE窝囊废咯我AV奇偶奇偶哇</textarea>
+                    <p>身份认证</p>
+
+                </div>
+                <!-- 第二个选项卡 -->
+                <div class="tab_2 public" style="display:block">
+                    <div class="message">
+                        <div class="msg_left">
+                            <img src="image/微信.png">
+                        </div>
+                        <div class="msg_right mdui-theme-accent-blue">
+                            <div class="content">发达奉达发发呆飞天狗热腾腾投入和天然哈哈哈</div>
+                            <hgroup>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">忽略帮忙</button>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">确认帮忙</button>
+                            </hgroup>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="msg_left">
+                            <img src="image/微信.png">
+                        </div>
+                        <div class="msg_right mdui-theme-accent-blue">
+                            <div class="content">发达奉达发发呆飞天狗热腾腾投入和天然哈哈哈</div>
+                            <hgroup>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">忽略帮忙</button>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">确认帮忙</button>
+                            </hgroup>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="msg_left">
+                            <img src="image/微信.png">
+                        </div>
+                        <div class="msg_right mdui-theme-accent-blue">
+                            <div class="content">发达奉达发发呆飞天狗热腾腾投入和天然哈哈哈</div>
+                            <hgroup>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">忽略帮忙</button>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">确认帮忙</button>
+                            </hgroup>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="msg_left">
+                            <img src="image/微信.png">
+                        </div>
+                        <div class="msg_right mdui-theme-accent-blue">
+                            <div class="content">发达奉达发发呆飞天狗热腾腾投入和天然哈哈哈</div>
+                            <hgroup>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">忽略帮忙</button>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">确认帮忙</button>
+                            </hgroup>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="msg_left">
+                            <img src="image/微信.png">
+                        </div>
+                        <div class="msg_right mdui-theme-accent-blue">
+                            <div class="content">发达奉达发发呆飞天狗热腾腾投入和天然哈哈哈</div>
+                            <hgroup>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">忽略帮忙</button>
+                                <button class="mdui-btn mdui-color-theme-accent mdui-ripple">确认帮忙</button>
+                            </hgroup>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab_3 public">
+                    我是第三个选项卡
+
+                </div>
+                <div class="tab_4 public">
+                    我是第四个选项卡
+
+                </div>
+                <!-- 第五个选项卡 -->
+                <div class="tab_5 public">
+                    <div class="mdui-card module">
+                        <!-- 卡片头部，包含头像、标题、副标题 -->
+                        <div class="mdui-card-header">
+                            <img class="mdui-card-header-avatar" src="image/微信.png" />
+                            <div class="mdui-card-header-title">称号</div>
+                            <div class="mdui-card-header-subtitle">昵称</div>
+                        </div>
+                        <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
+                        <div class="mdui-card-media">
+                            <img src="image/back.jpg" />
+                            <!-- 卡片中可以包含一个或多个菜单按钮 -->
+                            <div class="mdui-card-menu">
+                                <button class="mdui-btn mdui-btn-icon mdui-text-color-white">
+                                    <i class="mdui-icon material-icons">share</i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- 卡片的标题和副标题 -->
+                        <div class="mdui-card-primary">
+                            <div class="mdui-card-primary-title">专业</div>
+                            <div class="mdui-card-primary-subtitle">
+                                <span>打赏次数</span>
+                                <span>打赏次数</span>
+                                <span>打赏次数</span>
+                            </div>
+                        </div>
+                        <!-- 卡片的内容 -->
+                        <div class="mdui-card-content">个人简介：就放了戴假发U盾噢发件方弄了弄安慰及</div>
+                    </div>
+                    <div class="mdui-card module">
+                        <!-- 卡片头部，包含头像、标题、副标题 -->
+                        <div class="mdui-card-header">
+                            <img class="mdui-card-header-avatar" src="image/微信.png" />
+                            <div class="mdui-card-header-title">称号</div>
+                            <div class="mdui-card-header-subtitle">昵称</div>
+                        </div>
+                        <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
+                        <div class="mdui-card-media">
+                            <img src="image/back.jpg" />
+                            <!-- 卡片中可以包含一个或多个菜单按钮 -->
+                            <div class="mdui-card-menu">
+                                <button class="mdui-btn mdui-btn-icon mdui-text-color-white">
+                                    <i class="mdui-icon material-icons">share</i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- 卡片的标题和副标题 -->
+                        <div class="mdui-card-primary">
+                            <div class="mdui-card-primary-title">专业</div>
+                            <div class="mdui-card-primary-subtitle">
+                                <span>打赏次数</span>
+                                <span>打赏次数</span>
+                                <span>打赏次数</span>
+                            </div>
+                        </div>
+                        <!-- 卡片的内容 -->
+                        <div class="mdui-card-content">个人简介：就放了戴假发U盾噢发件方弄了弄安慰及</div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer>版权声明</footer>
+        <script src="js/personal_info.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+.help_contain{
+        width: 77%;
+        height: 700px;
+        min-width: 740px;
+        /* border: 1px solid black; */
+        float: left;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    /* background-color: #fff; */
+}
+/* 头部帮忙信息 */
+.public{
+    width: 88%;
+    margin: 20px auto;
+}
+.top{
+    height: 100px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    background-color: #fff;
+    
+}
+.top .head{
+    float: left;
+    width: 16.5%;
+    height: 100%;
+    line-height: 100px;    
+    text-align: center;
+}
+.top .head img{
+    width: 80%;
+    height: 80%;
+    vertical-align: middle;
+}
+.top .capture{
+    float: right;
+    width: 78%;
+    height: 100%;
+    text-align: left;
+    position: relative;
+}
+.top .capture .content{
+    line-height: 100px;
+}
+.top .capture .time{
+    display: inline;
+    position: absolute;
+    top: 14px;
+    right: 50px;
+}
+.top .capture img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 13px;
+    right: 40px;
+}
+.top .reward{
+    min-width: 68px;
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+/* 聊天界面 */
+.chat{
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    height: 530px;
+    background-color: rgba(255, 254, 238, 0.986);
+    position: relative;
+
+}
+.chat .record{
+    width: 100%;
+    min-width: 696px;
+    height: 88%;
+    overflow: scroll;
+    padding: 20px 10px;
+}
+.chat .fixed{
+    width: 100%;
+    min-width: 634px;;
+    height: 52px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    /* box-shadow: 0 1px 3px rgba(26,26,26,.1); */
+    
+}
+.chat .write{
+    width: 70%;
+    height: 40px;
+    line-height: 60px;
+    border: 1px solid rgb(134, 230, 214);
+    padding-left: 10px;
+}
+.chat .send{
+    margin-left: 10px;
+}
+.chat .record .msg .other_head{
+    display: inline-block;
+    width: 10%;
+    float: left;
+}
+.chat .record .msg .other_head img{
+    width: 56px;
+    height: 56px;
+    vertical-align: middle;
+    
+}
+.chat .record .msg{
+    margin-top: 10px;
+}
+.chat .record .msg  .info{
+    word-break: break-all; 
+    word-wrap:break-word;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    background-color: rgb(122, 218, 224);
+    border-radius: 10px;
+    padding: 10px 16px;
+    min-height: 24px;
+}
+.chat .record .msg .other_msg{
+    display: inline-block;
+    width: 70%;
+    min-height: 60px;
+}
+.chat .record .msg .other_msg .name{
+    padding: 4px 10px;
+}
